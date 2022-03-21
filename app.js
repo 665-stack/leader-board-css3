@@ -24,17 +24,3 @@ document.getElementById('add-number').addEventListener('click', function () {
         document.getElementById('add-num-input').value = add;
     }
 })
-document.getElementById('add-num-input').addEventListener('keyup', function () {
-    const addNumber = document.getElementById('add-number');
-    if (event.target.value == 'f') {
-        addNumber.removeAttribute('disabled')
-    }
-    else {
-        addNumber.setAttribute('disabled', true)
-    }
-
-})
-//chanage
-document.getElementById('add-num-input').addEventListener('change', function () {
-    const addField = document.getElementById('add-num-input');
-})
