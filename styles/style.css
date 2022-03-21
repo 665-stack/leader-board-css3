@@ -176,6 +176,31 @@ hr{
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
 };
+/* add number */
+#add-number-field{
+    color: white;
+    margin-bottom: 50px;
+}
+#add-num-input{
+    background-color:rgb(211, 168, 168);
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    font-size: 18px;
+}
+#add-number{
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+#add-number:hover{
+    background-color: rgb(194, 69, 69);
+}
 
 
 
